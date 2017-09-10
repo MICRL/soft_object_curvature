@@ -1,0 +1,3 @@
+<launch>
+  <node pkg="tf" type="static_transform_publisher" name="link1_broadcaster" args="1 0 0 0 0 0 1 camera_link_611205001943 camera_depth_optical_frame_611205001943 100" />
+</launch>
